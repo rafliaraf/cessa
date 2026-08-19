@@ -1,8 +1,8 @@
-# 💌 Buat Cessa
+#Buat Cessa
 
 Sesuatu yang kecil, tapi dari hati. Sebuah halaman web interaktif yang dibuat khusus untuk Cessa.
 
-## ✨ Fitur
+## Fitur
 
 - Animasi amplop pembuka
 - Kartu surat dengan efek glassmorphism
@@ -11,20 +11,8 @@ Sesuatu yang kecil, tapi dari hati. Sebuah halaman web interaktif yang dibuat kh
 - Partikel animasi saat klik **IYA**
 - **Responsive** — tampil cantik di HP maupun desktop
 
-## 🗂️ Struktur
 
-```
-├── index.html
-├── style.css
-├── script.js
-├── yes.png         ← tombol IYA
-├── no.png          ← tombol TIDAK
-├── cat_heart.gif
-├── cat_dance.gif
-└── ...
-```
-
-## 🚀 Cara Pakai
+## Cara Pakai
 
 Cukup buka `index.html` di browser, atau deploy ke **GitHub Pages**:
 
@@ -34,5 +22,3 @@ Cukup buka `index.html` di browser, atau deploy ke **GitHub Pages**:
 4. Klik **Save** — situsnya langsung live! 🎉
 
 ---
-
-*Made with 💗*
