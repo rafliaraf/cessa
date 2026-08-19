@@ -246,9 +246,12 @@ body {
 
 .btn-group {
     display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 14px;
     justify-content: center;
+    align-items: center;
+    width: 100%;
     position: relative;
 }
 
@@ -265,10 +268,10 @@ body {
 }
 
 .btn-img {
-    width: 120px;
+    width: 90px;
     height: auto;
     display: block;
-    border-radius: 16px;
+    border-radius: 12px;
     transition: transform 0.2s ease, filter 0.2s ease;
     pointer-events: none;
     user-select: none;
@@ -411,11 +414,12 @@ body {
     }
 
     .btn-img {
-        width: 100px;
+        width: 80px;
     }
 
     .btn-group {
-        gap: 16px;
+        gap: 12px;
+        flex-wrap: nowrap;
     }
 
     .final-main {
@@ -437,10 +441,11 @@ body {
     }
 
     .btn-img {
-        width: 85px;
+        width: 70px;
     }
 
     .btn-group {
-        gap: 12px;
+        gap: 10px;
+        flex-wrap: nowrap;
     }
 }
